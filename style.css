@@ -59,7 +59,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    margin: auto;
+    height: 500px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.781);
 
     h1 {
