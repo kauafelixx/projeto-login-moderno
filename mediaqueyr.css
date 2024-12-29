@@ -9,12 +9,12 @@
 }
 
 
-@media  screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:768px) and (max-width:992px) {
     body {
         background-color: var(--cor3);
         width: 100vw;
         height: 100vh;
-    
+
         background-image: url(fundo-sem-fundo.png);
         background-position: center bottom;
         background-size: 950px;
@@ -22,7 +22,7 @@
         background-attachment: fixed;
         position: relative;
     }
-    
+
     body::before {
         content: "";
         position: absolute;
@@ -34,9 +34,34 @@
         background-repeat: no-repeat;
         background-size: 950px;
         background-position: center bottom;
+        background-attachment: fixed;
         filter: drop-shadow(5px 5px 10px var(--cor5));
         z-index: -1;
     }
+
+    main {
+        width: 70vw;
+        height: 80vh;
+        flex-flow: row wrap;
+        display: flex;
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        p {
+            font-size: .8em;
+            text-align: justify;
+            width: 500px;
+        }
+
+        #enviar {
+            margin: 10px;
+        }
+    }
+
+
+
 }
 
 @media screen and (min-width:992px) {
@@ -44,7 +69,7 @@
         background-color: var(--cor3);
         width: 100vw;
         height: 100vh;
-    
+
         background-image: url(fundo-sem-fundo.png);
         background-position: center bottom;
         background-size: 1050px;
@@ -52,7 +77,7 @@
         background-attachment: fixed;
         position: relative;
     }
-    
+
     body::before {
         content: "";
         position: absolute;
@@ -64,7 +89,36 @@
         background-repeat: no-repeat;
         background-size: 1050px;
         background-position: center bottom;
+        background-attachment: fixed;
         filter: drop-shadow(5px 5px 10px var(--cor5));
         z-index: -1;
+    }
+
+    main {
+        width: 90vw;
+        height: 70vh;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1em;
+            width: 600px;
+        }
+
+        #iemail,
+        #isenha {
+            margin: 10px;
+
+        }
+
+        #enviar {
+            margin: 10px;
+        }
     }
 }

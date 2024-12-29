@@ -24,7 +24,7 @@ body {
 
     background-image: url(fundo-sem-fundo.png);
     background-position: center bottom;
-    background-size: 850px;
+    background-size: 900px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
@@ -45,7 +45,7 @@ body::before {
     background-image: url(fundo-sem-fundo.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 850px;
+    background-size: 900px;
     background-position: center bottom;
     filter: drop-shadow(5px 5px 10px var(--cor5));
     z-index: -1;
@@ -55,11 +55,11 @@ main {
 
     padding: 60px;
     background-color: var(--cor6);
-
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.781);
 
     h1 {
@@ -107,7 +107,7 @@ label {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .7em;
-padding: 10px;
+    padding: 10px;
 }
 
 #enviar {
@@ -132,7 +132,7 @@ padding: 10px;
     text-decoration: underline;
     top: -30px;
     left: -30px;
-    background:var(--cor5);
+    background: var(--cor5);
     width: 90%;
     height: 30px;
     top: 100%;
