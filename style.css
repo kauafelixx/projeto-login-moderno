@@ -51,12 +51,14 @@ body::before {
 }
 
 main {
-    border: 1px dotted black;
+
     padding: 60px;
     background-color: var(--cor6);
-    border-radius: 50% 5px 50% 5px ;
+
     display: flex;
-    height: 500px;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.781);
 
     h1 {
@@ -104,7 +106,7 @@ label {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .7em;
-    padding-top: 20px;
+padding: 10px;
 }
 
 #enviar {
@@ -117,11 +119,23 @@ label {
     margin-top: 20px;
     height: 30px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.781);
-
+    transition: all .7s;
 }
-#enviar:hover{
-    box-shadow: 3px 3px 10px var(--cor5);
+
+
+
+
+
+#enviar:hover {
+    box-shadow: 3px 3px 10px var(--cor3);
     text-decoration: underline;
+    top: -30px;
+    left: -30px;
+    background:var(--cor5);
+    width: 90%;
+    height: 30px;
+    top: 100%;
+    left: 100%;
 }
 
 
